@@ -1,7 +1,7 @@
 import Container from "./Container";
 
-const index = () => {
+const PrestationalAndContainerBase = () => {
   return <Container />;
 };
 
-export default index;
+export default PrestationalAndContainerBase;

@@ -1,4 +1,5 @@
 const Presentational = (props) => {
+  if (!props.posts) return <div>Please start to json server!</div>;
   return (
     <ul>
       {props.posts.map((post) => (

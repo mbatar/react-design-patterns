@@ -1,7 +1,7 @@
 import ChildComponent from "./ChildComponent";
 
-const index = () => {
+const HOCBase = () => {
   return <ChildComponent />;
 };
 
-export default index;
+export default HOCBase;
