@@ -1,5 +1,11 @@
+import HOCExample from "./higher-order-component";
+
 function App() {
-  return <div>Hello React!</div>;
+  return (
+    <div>
+      <HOCExample />
+    </div>
+  );
 }
 
 export default App;
